@@ -13,13 +13,13 @@ import streamlit as st
 
 
 # All Paths
-GEMINI_API="AIzaSyBuXKPw4JCNj9Gx7OWOtMSxpmSvZ-HRGzU"
-ASTRA_DB_ID="34b7001d-9dc8-442f-b542-fa078662ae2a"
-ASTRA_DB_APPLICATION_TOKEN="AstraCS:PkJsEYTbLxvbuCmKsifPOYNk:f613ec4e87c67f05693b831c11941301153fdcb1351483493e4d84e6cee329cf"
+GEMINI_API=""
+ASTRA_DB_ID=""
+ASTRA_DB_APPLICATION_TOKEN=""
 
 
 # Read Pdf
-pdf = PdfReader(r"/Langchain/Health Insurence Check/90ade7e39d5e481f9aeb772a19a30234.pdf")
+pdf = PdfReader(r"/Langchain/Health Insurence Check/Your.pdf")
 
 # extracting text
 raw_text = ""
